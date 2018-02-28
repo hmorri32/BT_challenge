@@ -30,7 +30,6 @@ class Fizz
   end
 end
 
-
 if $PROGRAM_NAME == __FILE__
   f = Fizz.new
   p f.buzz_range(1..10000)
